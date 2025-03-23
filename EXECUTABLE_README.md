@@ -1,8 +1,15 @@
-# Resource Allocation Graph Simulator
+# Resource Allocation Graph Simulator - Executable Version
 
-A visual tool for simulating and detecting deadlocks in operating systems resource allocation.
+This is the executable version of the Resource Allocation Graph Simulator, a visual tool for simulating and detecting deadlocks in operating systems resource allocation.
 
-![Resource Allocation Graph Simulator]
+## Installation
+
+No installation is required. Simply download and run the executable file.
+
+## Running the Application
+
+1. Navigate to the `dist` folder
+2. Double-click on `Resource_Allocation_Graph_Simulator.exe` to launch the application
 
 ## Features
 
@@ -16,27 +23,6 @@ A visual tool for simulating and detecting deadlocks in operating systems resour
 - **Zoom and Pan**: Navigate complex graphs with ease
 - **Undo/Redo**: Revert or reapply changes as needed
 - **Save/Load**: Persist your graphs as JSON files
-
-## Requirements
-
-- Python 3.6+
-- PyQt5
-- NetworkX
-
-## Installation
-
-1. Ensure you have Python installed
-2. Install the required dependencies:
-
-```bash
-pip install PyQt5 networkx
-```
-
-3. Run the application:
-
-```bash
-python os.py
-```
 
 ## Usage Guide
 
@@ -78,27 +64,13 @@ python os.py
 - **Mouse Wheel**: Zoom in/out
 - **Middle Mouse Button**: Pan the view
 
-## Understanding Resource Allocation Graphs
+## Troubleshooting
 
-Resource Allocation Graphs (RAGs) are directed graphs used to detect deadlocks in operating systems:
+If the application fails to start:
 
-- **Processes**: Represented as circular nodes
-- **Resources**: Represented as square nodes with instance counts
-- **Allocation Edges**: Directed edges from resources to processes (green)
-- **Request Edges**: Directed edges from processes to resources (yellow)
-
-Deadlocks occur when there is a circular wait - a cycle in the graph where processes are waiting for resources held by other processes in the cycle.
-
-## Example Workflow
-
-1. Add multiple processes (P1, P2, P3)
-2. Add resources with instances (R1 with 2 instances, R2 with 1 instance)
-3. Allocate one R1 to P1
-4. Let P2 request R2
-5. Allocate R2 to P2
-6. Let P2 request remaining R1
-7. Let P1 request R2
-8. Run deadlock detection to identify the circular wait
+1. Make sure you have the Microsoft Visual C++ Redistributable installed
+2. Try running the application as administrator
+3. Check that your antivirus is not blocking the application
 
 ## License
 

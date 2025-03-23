@@ -2,7 +2,7 @@
 
 A visual tool for simulating and detecting deadlocks in operating systems resource allocation.
 
-![Resource Allocation Graph Simulator](https://github.com/Visvatharsan/OS-project/raw/main/screenshot.png)
+![Resource Allocation Graph Simulator].
 
 ## Overview
 

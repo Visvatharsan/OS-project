@@ -8,3 +8,5 @@ dist/** filter=lfs diff=lfs merge=lfs -text
 build/**/* filter=lfs diff=lfs merge=lfs -text
 dist/**/* filter=lfs diff=lfs merge=lfs -text
 .dist/**/* filter=lfs diff=lfs merge=lfs -text
+*.py filter=lfs diff=lfs merge=lfs -text
+icons/* filter=lfs diff=lfs merge=lfs -text

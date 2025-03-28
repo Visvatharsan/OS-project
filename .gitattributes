@@ -10,3 +10,5 @@ dist/**/* filter=lfs diff=lfs merge=lfs -text
 .dist/**/* filter=lfs diff=lfs merge=lfs -text
 *.py filter=lfs diff=lfs merge=lfs -text
 icons/* filter=lfs diff=lfs merge=lfs -text
+icons/create_icon.py filter=lfs diff=lfs merge=lfs -text
+icons/rag_icon.ico filter=lfs diff=lfs merge=lfs -text
